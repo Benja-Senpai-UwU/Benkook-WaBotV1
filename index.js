@@ -269,19 +269,18 @@ async function starts() {
 				teks = `Hola @${num.split('@')[0]} 👻
 Bienvenid@ a 
 *${mdata.subject}*
-─────────────────
 ⊰᯽⊱┈─────╌❊ - ❊╌─────┈⊰᯽⊱
 ╔─────── ¤ ◎ - ◎ ¤ ───────╗
 ┃  ──〘 *Ficha de Presentación* 〙── 
 ┠━━━━━━•❅•°•❈- •°•❅•━━━━━━━┛
 ┠━━━━━━━━━━━━━━━━━━━
-┠⊷️❥ *Nᴏᴍʙʀᴇ:*
+┠⊷️❥ *Nombre:*
 ┠━━━━━━━━━━━━━━━━━━━
-┠⊷️❥ *Eᴅᴀᴅ:*
+┠⊷️❥ *Edad:*
 ┠━━━━━━━━━━━━━━━━━━━
-┠⊷️❥ *Pᴀɪ́s:*
+┠⊷️❥ *Pais*
 ┠━━━━━━━━━━━━━━━━━━━
-┠⊷️❥ *Gᴇ́ɴᴇʀᴏ:*
+┠⊷️❥ *Genero:*
 ┠━━━━━━• ❅•°•❈ - •°•❅•━━━━━━┓
 ┗━━━━━━━━[ @BSUwU ]━━━━━━━━┛
 ⊰᯽⊱┈─────╌❊ - ❊╌─────┈⊰᯽⊱
@@ -332,7 +331,7 @@ Usa ${prefix}verify para registrarte y poder usar el bot.`
   ferr: '[◇] Disculpá flaco, hubo un error',
   limitend: '[◇] El tiempo se acabó lcdth',
   error: {
-  stick: '[◇] Intentálo después cajeta',
+  stick: '[◇] Intentálo después bldo',
   Iv: '[◇] Hubo un error en el link boludo'
   },
   only: {
@@ -592,31 +591,30 @@ text: `  ────〘👻●@𝙱𝚂𝚄𝚠𝚄●🇦🇷〙────
 ────────────────
 〘 *BOT MENÚ* 〙
 ‣ Prefijo:  *「 ${prefix} 」*
-‣ Sho soy: ♥️JK変態BSUwU🖤
+‣ Creador: ♥️JK変態BSUwU🖤
 ‣ Conección: *Baileys*
 ‣ Tiempo encendido: *${kyun(uptime)}*
 ‣ Modo: *ON*
+‣ Versión: 1.4
 ‣ Grupo:  *${groupName}*
 ‣ Número de grupos: *${_registered.length}*
 ‣ Número de chats: *${totalchat.length}*
-‣ Número del dueño: wa.me/
-‣ Grupo oficial
-• _${Wa1}_
-‣ Seguíme wacho
-_${Ig}_
+‣ Número del dueño: wa.me/+5493814721444
+‣ Grupo oficial:
+● _Proximamente xd_
+‣ Mis redes:
+● _Proximamente_
 ────────────────
 ┏━━━━━━━━━━━━━━━━━━━━
 ┃─────〘👻●@𝙱𝚂𝚄𝚠𝚄●🇦🇷〙────
 ┃━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Simi (Teks)*
-┃ _Simsimi Chat_
-┠⊷️ *${prefix}Info*
+┃─────〘◇Comandos◇〙────
+┃━━━━━━━━━━━━━━━━━━━━
+┠⊷️❥ *${prefix}Info*
 ┃ _Información del bot_
-┠⊷️ *${prefix}Owner*
+┠⊷️❥ *${prefix}Owner*
 ┃ _Dueño del bot_
-┠⊷️ *${prefix}Donasi*
-┃ _Información de donasión_
-┠⊷️ *${prefix}Ping*
+┠⊷️❥ *${prefix}Ping*
 ┃ _Velocidad_
 ┗━━━━━━━━━━━━━━━━━━━━
 ┏━━━━━━━━━━━━━━━━━━━━
@@ -624,154 +622,154 @@ _${Ig}_
 ┗━━━━━━━━━━━━━━━━━━━━
 *〘 GRUPO 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}@admins*
+┠⊷️❥ *${prefix}@admins*
 ┃ _Lista de los admin_
-┠⊷️ *${prefix}@online*
+┠⊷️❥ *${prefix}@online*
 ┃ _Lista de los miembros en linea_
-┠⊷️ *${prefix}Cerrar-grupo*
+┠⊷️❥ **${prefix}Cerrar-grupo*
 ┃ _Cerrar grupo_
-┠⊷️ *${prefix}Abrir-grupo*
+┠⊷️❥ *${prefix}Abrir-grupo*
 ┃ _Abrir grupo_
-┠⊷️ *${prefix}1admin*
+┠⊷️❥ *${prefix}1admin*
 ┃ _Dar admin_
-┠⊷️ *${prefix}0admin*
+┠⊷️❥ *${prefix}0admin*
 ┃ _Quitar admin_
-┠⊷️ *${prefix}Setname*
+┠⊷️❥ *${prefix}Setname*
 ┃ _Establecer nombre del grupo_
-┠⊷️ *${prefix}Setdesk*
+┠⊷️❥ *${prefix}Setdesk*
 ┃ _Establecer descripción del grupo_
-┠⊷️ *${prefix}Añadir*
+┠⊷️❥ *${prefix}Añadir*
 ┃ _Añadir miembro_
-┠⊷️ *${prefix}Ban*
+┠⊷️❥ *${prefix}Ban*
 ┃ _Eliminar miembro_
-┠⊷️ *${prefix}@todos*
+┠⊷️❥ *${prefix}@todos*
 ┃ _Mencionar a todos_
-┠⊷️ *${prefix}Linkgc*
+┠⊷️❥ *${prefix}Linkgc*
 ┃ _Link del grupo_
-┠⊷️ *${prefix}Bye-bot*
+┠⊷️❥ *${prefix}Bye-bot*
 ┃ _Eliminar bot_
-┠⊷️ *${prefix}Notif*
+┠⊷️❥ *${prefix}Notif*
 ┃ _Notificación a todos_
-┠⊷️ *${prefix}Bienvenid@*
-┃ _On/off Bienvenida_
-┠⊷️ *${prefix}Borrar*
+┠⊷️❥ *${prefix}Bienvenid@*
+┃ _[1=On][0=off]Bienvenida_
+┠⊷️❥ *${prefix}Borrar*
 ┃ _Eliminar un mensaje del bot_
 ┗━━━━━━━━━━━━━━━━━━━━
 *〘 FUN 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Alay (Texto)*
+┠⊷️❥ *${prefix}Alay (Texto)*
 ┃ _Font Alay_
-┠⊷️ *${prefix}Alay2 (Texto)*
+┠⊷️❥ *${prefix}Alay2 (Texto)*
 ┃ _Font Alay_
-┠⊷️ *${prefix}Reverse (Texto)*
+┠⊷️❥ *${prefix}Reverse (Texto)*
 ┃ _Escribir al reves_
-┠⊷️ *${prefix}Hilih (Texto)*
+┠⊷️❥ *${prefix}Hilih (Texto)*
 ┃ _Cambiar vocales por la i_
-┠⊷️ *${prefix}Namae (Texto)*
+┠⊷️❥ *${prefix}Namae (Texto)*
 ┃ _Nombre ninpushnameu_
-┠⊷️ *${prefix}Pantun*
+┠⊷️❥ *${prefix}Pantun*
 ┃ _Poema al azar_
-┠⊷️ *${prefix}Bucin*
+┠⊷️❥ *${prefix}Bucin*
 ┃ _Expreción al azar_
-┠⊷️ *${prefix}Bijak*
+┠⊷️❥ *${prefix}Bijak*
 ┃ _Palabras de motivasión_
-┠⊷️ *${prefix}Chatprank (Texto1/Texto2)*
+┠⊷️❥ *${prefix}Chatprank (Texto1/Texto2)*
 ┃ _Juntar palabras o fraces_
-┠⊷️ *${prefix}Perfil*
+┠⊷️❥ *${prefix}Perfil*
 ┃ _Tu perfil_
-┠⊷️ *${prefix}Fml*
+┠⊷️❥ *${prefix}Fml*
 ┃ _Historias de vida_
-┠⊷️ *${prefix}Asupan*
+┠⊷️❥ *${prefix}Asupan*
 ┃ _Cronologia_
-┠⊷️ *${prefix}Tagme*
+┠⊷️❥ *${prefix}Tagme*
 ┃ _Mencionarte_
-┠⊷️ *${prefix}Fitnah (Menciona a la persona|texto1|texto2)*
+┠⊷️❥ *${prefix}Fitnah (Menciona a la persona|texto1|texto2)*
 ┃ _Mensaje falso de una persona_
 ┗━━━━━━━━━━━━━━━━━━━━
 *〘 MEDIA 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}listvn*
+┠⊷️❥ *${prefix}listvn*
 ┃ _Lista de sonidos_
-┠⊷️ *${prefix}listimg*
+┠⊷️❥ *${prefix}listimg*
 ┃ _Lista de fotos_
-┠⊷️ *${prefix}liststik*
+┠⊷️❥ *${prefix}liststik*
 ┃ _Lista de sticker_
-┠⊷️ *${prefix}listvid*
+┠⊷️❥ *${prefix}listvid*
 ┃ _Lista de videos_
 ┗━━━━━━━━━━━━━━━━━━━━
 *〘 EDITING 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Gtav (Foto)*
+┠⊷️❥ *${prefix}Gtav (Foto)*
 ┃ _Convierte foto al estilo Gtav_
-┠⊷️ *${prefix}Wanted (Foto)*
+┠⊷️❥ *${prefix}Wanted (Foto)*
 ┃ _Convierte foto al estilo wanted_
-┠⊷️ *${prefix}Dibujar(Foto)*
+┠⊷️❥ *${prefix}Dibujar(Foto)*
 ┃ _Convierte foto a dibujo_
 ┗━━━━━━━━━━━━━━━━━━━━
 *〘 ANIME 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Infoanime (Nombre)*
+┠⊷️❥ *${prefix}Infoanime (Nombre)*
 ┃ _Información de animes_
-┠⊷️ *${prefix}Neonime (Nombre)*
+┠⊷️❥ *${prefix}Neonime (Nombre)*
 ┃ _Información de neoanimes_
-┠⊷️ *${prefix}Charnime (Nombre)*
+┠⊷️❥ *${prefix}Charnime (Nombre)*
 ┃ _Personajes de anime_
-┠⊷️ *${prefix}Wait*
+┠⊷️❥ *${prefix}Wait*
 ┃ _Busca información de una imagen de anime_
-┠⊷️ *${prefix}Anime*
+┠⊷️❥ *${prefix}Anime*
 ┃ _Imagen aleatoria de anime_
-┠⊷️ *${prefix}Loli*
+┠⊷️❥ *${prefix}Loli*
 ┃ _Imagen aleatoria de loli_
-┠⊷️ *${prefix}Neko*
+┠⊷️❥ *${prefix}Neko*
 ┃ _Imagen aleatoria de neko_
 ┗━━━━━━━━━━━━━━━━━━━━
 *〘 JUEGO 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Tebakgambar*
+┠⊷️❥ *${prefix}Tebakgambar*
 ┃ _Adivinanza de imagen_
-┠⊷️ *${prefix}Caklontong*
+┠⊷️❥ *${prefix}Caklontong*
 ┃ _Quiz aleatorio_
-┠⊷️ *${prefix}Que gay (Nombre)*
+┠⊷️❥ *${prefix}Que-gay (Nombre)*
 ┃ _Porcentaje de gay_
-┠⊷️ *${prefix}Seberapabucin (Nombre)*
+┠⊷️❥ *${prefix}Seberapabucin (Nombre)*
 ┃ _Porcentaje de bucin_
 ┗━━━━━━━━━━━━━━━━━━━━
 *〘 TOD 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
-┠⊷ *${prefix}Verdad*
-┠⊷ *${prefix}Mentira*
+┠⊷❥ *${prefix}Verdad*
+┠⊷❥ *${prefix}Mentira*
 ┗━━━━━━━━━━━━━━━━━━━━
 *〘 KERANG AJAIB 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
-┠⊷ *${prefix}Apakah (Texto)*
-┠⊷ *${prefix}Bisakah (Texto)*
-┠⊷ *${prefix}Kapankah (Texto)*
-┠⊷ *${prefix}Rate (Texto)*
-┠⊷ *${prefix}Gantengcek (Texto)*
-┠⊷ *${prefix}Cantikcek (Texto)*
+┠⊷❥ *${prefix}Apakah (Texto)*
+┠⊷❥ *${prefix}Bisakah (Texto)*
+┠⊷❥ *${prefix}Kapankah (Texto)*
+┠⊷❥ *${prefix}Rate (Texto)*
+┠⊷❥ *${prefix}Gantengcek (Texto)*
+┠⊷❥ *${prefix}Cantikcek (Texto)*
 ┗━━━━━━━━━━━━━━━━━━━━
 *〘 TOOLS 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Tomp3*
+┠⊷️❥ *${prefix}Tomp3*
 ┃ _Audio de video_
-┠⊷️ *${prefix}Play (Nombre)*
+┠⊷️❥ *${prefix}Play (Nombre)*
 ┃ _Canciones_
-┠⊷️ *${prefix}Tts (Texto)*
+┠⊷️❥ *${prefix}Tts (Texto)*
 ┃ _Texto a sonido_
-┠⊷️ *${prefix}Igstalk (username)*
+┠⊷️❥ *${prefix}Igstalk (username)*
 ┃ _Perfil de ig_
-┠⊷️ *${prefix}Timer (Hora)*
-┠⊷️ *${prefix}Wame*
+┠⊷️❥ *${prefix}Timer (Hora)*
+┠⊷️❥ *${prefix}Wame*
 ┃ _Link de wa.me_
-┠⊷️ *${prefix}Nulis (Texto)*
+┠⊷️❥ *${prefix}Nulis (Texto)*
 ┃ _Texto en cuaderno_
-┠⊷️ *${prefix}Ocr*
+┠⊷️❥ *${prefix}Ocr*
 ┃ _Texto en imagen_
-┠⊷️ *${prefix}Wait*
+┠⊷️❥ *${prefix}Wait*
 ┗━━━━━━━━━━━━━━━━━━━━
 *〘 TEXT0 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Tahta (Texto)*
+┠⊷️❥ *${prefix}Tahta (Texto)*
 ┃ _Ex : ${prefix}Tahta Benkook_
 ┗━━━━━━━━━━━━━━━━━━━━
 *〘 TEXTO2 〙*
