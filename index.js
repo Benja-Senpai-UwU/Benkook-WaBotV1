@@ -2319,8 +2319,7 @@ break
   case 'setname':
 if (!isGroup) return reply(mess.only.group)
 if (!isGroupAdmins) return reply(mess.only.admin)
-if (!isBotGroupAdmins) ret 
-urn reply(mess.only.Badmin)
+if (!isBotGroupAdmins) return reply(mess.only.Badmin)
 let idgrup = `${from.split("@s.whatsapp.net")[0]}`;
 Lxa.groupUpdateSubject(idgrup, `${body.slice(9)}`)
 Lxa.sendMessage(from, '[◇] Cambio nombre del grupo', text, {
