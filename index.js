@@ -255,7 +255,7 @@ const {
 	  Lxa.on('open', () => {
 		  success('2', '〘 Conectado uwu 〙')
 	  })
-	  await Lxa.connect({timeoutMs: 30*1000})
+	  await Lxa.connect({timeoutMs: 60*1000})
 		  fs.writeFileSync('./Lexa.json', JSON.stringify(Lxa.base64EncodedAuthInfo(), null, '\t'))
   
   
